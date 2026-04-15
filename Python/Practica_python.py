@@ -1,5 +1,6 @@
 Python
 print("HOLA MUNDO")
+
 a = 5
 b = 3
 print("suma:", a+b)
@@ -29,4 +30,4 @@ while i <= 5:
   i +=1
 def saludo():
   print("Hola Romy")
-  print
+saludo()
