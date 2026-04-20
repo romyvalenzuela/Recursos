@@ -1,1 +1,1 @@
-
+Es la forma de programar usando clases y objetos como en la vida real y se basa en 4 parte abstraccion,encapsulamiento,herencia,polimorfismo y nos ayuda a crear programas mas ordenados y reutilizables.
