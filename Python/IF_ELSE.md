@@ -5,13 +5,16 @@ tambien existe 'elif' para evaluar mas condiciones
 nota = 65
 
 if nota <= 90:
+ 
   print("Exelente")
 
 
 elif nota <= 60:
+ 
   print("Aprobado")
 
 
 else:
+   
    print("Reprobado")
   
