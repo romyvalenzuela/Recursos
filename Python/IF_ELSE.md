@@ -6,12 +6,13 @@ nota = 65
 
 if nota <= 90:
  
-  print("Exelente")
+  
+   print("Exelente")
 
 
 elif nota <= 60:
     
-    print("Aprobado")
+     print("Aprobado")
 
 
 else:
