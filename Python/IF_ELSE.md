@@ -10,6 +10,7 @@ if nota <= 90:
 
 
 elif nota <= 60:
+    
     print("Aprobado")
 
 
