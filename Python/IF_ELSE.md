@@ -4,10 +4,10 @@ tambien existe 'elif' para evaluar mas condiciones
 ## Ejemplo
 nota = 65
 
-if nota >= 90:
+if nota <= 90:
   print("Exelente")
 
-elif nota >= 60:
+elif nota <= 60:
   print("Aprobado")
 
 else:
