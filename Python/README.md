@@ -1,12 +1,12 @@
 # Recurso de python
 ## INDICE
-- [Clases python](CLASES_PYTHON.md)
-- [Practica python](Practica_pythone.py)
-- [Hola mundo](Hola_Mundo.md)
-- [Operacion basicas](Operaciones_basicas.md)
+- [CLASES PYTHON](CLASES_PYTHON.md)
+- [PRACTICA_PYTHON](PRACTICA_PYTHON.py)
+- [HOLA MUNDO](HOLA_MUNDO.md)
+- [OPERACIONES_BASICA](OPERACIONES_BASICAS.md)
 - [IF ELSE](IF_ELSE.md)
 - [CICLO FOR](CICLO_FOR.md)
 - [WHILE](WHILE.md)
-- [Funciones](Funciones.md)
+- [FUNCIONES](FUNCIONES.md)
 - [SWITCH CASE](SWITCH_CASE.md)
   
