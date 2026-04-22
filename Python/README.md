@@ -6,4 +6,7 @@
 - [Operacion basicas](Operaciones_basicas.md)
 - [IF ELSE](IF_ELSE.md)
 - [CICLO FOR](CICLO_FOR.md)
+- [WHILE](WHILE.md)
+- [Funciones](Funciones.md)
+- [SWITCH CASE](SWITCH_CASE.md)
   
