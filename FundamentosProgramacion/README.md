@@ -1,2 +1,3 @@
 # Material sobre Fundamentos de Programación
-## [PARADIGMAS DE PROGRAMACION](PRADIGMAS.md)
+## [PARADIGMAS DE PROGRAMACION](PARADIGMAS.md)
+
