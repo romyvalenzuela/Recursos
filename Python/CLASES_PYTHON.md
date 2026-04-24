@@ -42,7 +42,7 @@ La herencia múltiple es cuando una clase hija hereda de dos o más clases padre
 El beneficio principal es reutilizar código. No tenemos que escribir los mismos atributos y métodos en cada clase. También organiza mejor el código: las clases hijas son versiones especializadas de la clase padre, lo que hace el programa más fácil de mantener y escalar.
 
 
-## E4.05 Polimorfismo
+## E4.04 Polimorfismo
 
  1.**¿Para qué se usa el polimorfismo?**
 Para que objetos de distintas clases respondan al mismo método de formas diferentes. Me deja usar personaje.atacar() y que un Mago, Guerrero o Arquero ataquen distinto sin cambiar mi código.
@@ -52,3 +52,5 @@ Si la fuerza es menor que la defensa, el daño debe ser 0 o 1 como mínimo para 
 
 3.**¿Qué métodos se crean en el paquete de personaje?**
 Los métodos básicos: constructor para iniciar atributos, getters y setters para leer y cambiar datos, y métodos como atacar o defender que después cada clase hija puede redefinir con polimorfismo.
+
+** Ejemplo de código inventado:**
