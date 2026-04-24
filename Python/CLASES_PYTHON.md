@@ -21,7 +21,7 @@ Los métodos get sirven para leer el valor de un atributo privado, como get_vida
 **¿Se puede acceder a los métodos o atributos una vez encapsulados?Justifique**
 A los atributos privados con __no se puede acceder directamente desde afuera de la clase. Si intentas heroe.__vida da error. Solo se puede usando los métodos get y set que la clase ofrece. Esto protege los datos y evita que se modifiquen por accidente.
 
-## Herencia
+## E4.03 Herencia
 
 **¿Por qué cuando se crea la clase guerrero al inicio heredando de la clase personaje genera error el código?**
 Genera error porque la clase guerrero hereda de personaje pero no tiene un método __init__. Al crear un guerrero , Python busca el __init__ de guerrero, no lo encuentra , y usa el personaje. Si no le pasamos los paramétros que pide el __init__ de personaje, da error.
@@ -42,7 +42,7 @@ La herencia múltiple es cuando una clase hija hereda de dos o más clases padre
 El beneficio principal es reutilizar código. No tenemos que escribir los mismos atributos y métodos en cada clase. También organiza mejor el código: las clases hijas son versiones especializadas de la clase padre, lo que hace el programa más fácil de mantener y escalar.
 
 
-## Polimorfismo
+## E4.05 Polimorfismo
 
  1.**¿Para qué se usa el polimorfismo?**
 Para que objetos de distintas clases respondan al mismo método de formas diferentes. Me deja usar personaje.atacar() y que un Mago, Guerrero o Arquero ataquen distinto sin cambiar mi código.
