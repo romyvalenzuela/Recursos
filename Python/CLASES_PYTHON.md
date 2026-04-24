@@ -57,15 +57,15 @@ Los métodos básicos: constructor para iniciar atributos, getters y setters par
 python
 
 class Vehiculo:
- def mover(self):
+def mover(self):
     print("El vehiculo se desplaza")
 
 class Auto(Vehiculo):
- def mover(self):
+def mover(self):
     print("El auto acelera por la carretera")
 
 class Barco(Vehiculo):
- def mover(self):
+def mover(self):
     print("El barco navega por el mar")
 
 # Polimorfismo en acción
