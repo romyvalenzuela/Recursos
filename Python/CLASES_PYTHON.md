@@ -54,7 +54,7 @@ Si la fuerza es menor que la defensa, el daño debe ser 0 o 1 como mínimo para 
 Los métodos básicos: constructor para iniciar atributos, getters y setters para leer y cambiar datos, y métodos como atacar o defender que después cada clase hija puede redefinir con polimorfismo.
 
 ** Ejemplo de código inventado:**
-python
+```python
 
 class Vehiculo:
 def mover(self):
@@ -72,3 +72,4 @@ def mover(self):
 flota = [Auto(), Barco()]
 for v in flota:
     v.mover() # Mismo método, resultado distinto.
+```
