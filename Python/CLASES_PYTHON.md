@@ -80,7 +80,7 @@ La clase `Mascota` simula una mascota. Elegí los atributos `nombre`, `edad`, `h
 
 **Requisitos cumplidos:**
 - Contructor `__init__` con 2 argumentos: `nombre` y `edad`
-- Atributos:`nombre`, `edad`,`hambre`,`felicidad`
+- Atributos:`nombre`, `edad`,`hambre`,`__felicidad`
 - Métodos: `alimentar()`, `jugar()`, `estado()`
 - Control de limites con  `max()` y `min()` para que no pasen de 0-100
 
