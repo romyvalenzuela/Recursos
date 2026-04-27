@@ -73,14 +73,14 @@ flota = [Auto(), Barco()]
 for v in flota:
     v.mover() # Mismo método, resultado distinto.
 ```
-## E5.01 Proyecto Final de class - Mascota Virtual
-El proyecto consiste en crear una class `Mascota` con atributos y métodos que simulan el comportamiento de una mascota virtual.
+## Proyecto Final: Mascota 
+La class `Mascota` simula una mascota. Elegí los atributos `nombre`, `edad`, `hambre` y `__felicidad` porque representan el estado básico de un animal. Los métodos `alimentar()` y `jugar()` interactuán con estos datos modificándolos. Usé encapsulamiento en `__ felicidad` con getter `get_felicidad()` y setter `set_felicidad()`para proteger el dato y asegurar que no pase de 0-100.
 
-**Código completo en:** `mascota_practica.py`
+[Ver código de práctica final](mascota_practica.py)
 
 **Requisitos cumplidos:**
 - Contructor `__init__` con 2 argumentos: `nombre` y `edad`
-- Atributos:`nombre`, `edad`, `hambre`, `felicidad`
+- Atributos:`nombre`, `edad`,`hambre`,`felicidad`
 - Métodos: `alimentar()`, `jugar()`, `estado()`
 - Control de limites con  `max()` y `min()` para que no pasen de 0-100
 
