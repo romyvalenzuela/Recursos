@@ -28,3 +28,5 @@ opciones = {
  
   eleccion = 2
   opciones.get(eleccion, opcion_default)()
+  
+  ```
