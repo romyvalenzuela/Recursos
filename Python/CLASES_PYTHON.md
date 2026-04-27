@@ -74,7 +74,7 @@ for v in flota:
     v.mover() # Mismo método, resultado distinto.
 ```
 ## Proyecto Final: Mascota 
-La class `Mascota` simula una mascota. Elegí los atributos `nombre`, `edad`, `hambre` y `__felicidad` porque representan el estado básico de un animal. Los métodos `alimentar()` y `jugar()` interactuán con estos datos modificándolos. Usé encapsulamiento en `__ felicidad` con getter `get_felicidad()` y setter `set_felicidad()`para proteger el dato y asegurar que no pase de 0-100.
+La clase `Mascota` simula una mascota. Elegí los atributos `nombre`, `edad`, `hambre` y `__felicidad` porque representan el estado básico de un animal. Los métodos `alimentar()` y `jugar()` interactuán con estos datos modificándolos. Usé encapsulamiento en `__felicidad` con getter `get_felicidad()` y setter `set_felicidad()`para proteger el dato y asegurar que no pase de 0-100.
 
 [Ver código de práctica final](mascota_practica.py)
 
