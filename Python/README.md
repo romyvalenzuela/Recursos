@@ -9,6 +9,6 @@
 - [WHILE](WHILE.md)
 - [FUNCIONES](FUNCIONES.md)
 - [SWITCH CASE](SWITCH_CASE.md)
-- [personaje](./personaje.md)
+- [CLASE PERSONAJE](personaje.py)
 - [EJEMPLO POO: CLASE GATO](./poo_gato.py)
   
