@@ -41,7 +41,7 @@ La herencia múltiple es cuando una clase hija hereda de dos o más clases padre
 **¿Cuál es el beneficio de aplicar herencia en POO?**
 El beneficio principal es reutilizar código. No tenemos que escribir los mismos atributos y métodos en cada clase. También organiza mejor el código: las clases hijas son versiones especializadas de la clase padre, lo que hace el programa más fácil de mantener y escalar.
 
-**Código del ejercicio:**[Personaje Herencia](Personaje_Herencia.py)
+**Código del ejercicio:** [Personaje Herencia](Personaje_Herencia.py)
 
 ## E4.04 Polimorfismo
 
