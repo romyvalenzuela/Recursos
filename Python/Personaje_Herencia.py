@@ -6,7 +6,7 @@ class Personaje:
 
  def atacar(self, otro):
     otro.vida -= self.ataque
-    print(f"{self.nombre} ataó a {otro.nombre}. Vida de {otro.nombre}: {otro.vida}")
+    print(f"{self.nombre} atacó a {otro.nombre}. Vida de {otro.nombre}: {otro.vida}")
 
  def esta_vivo(self):
   return sel.vida > 0
