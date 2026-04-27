@@ -10,6 +10,6 @@
 - [FUNCIONES](FUNCIONES.md)
 - [SWITCH CASE](SWITCH_CASE.md)
 - [CLASE PERSONAJE](personaje.py)
-- [HERENCIA GUERRERO](Personaje_Herencia.py)
+- [PERSONAJE HERENCIA](Personaje_Herencia.py)
 - [EJEMPLO POO: CLASE GATO](./poo_gato.py)
   
