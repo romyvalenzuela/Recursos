@@ -84,4 +84,6 @@ La clase `Mascota` simula una mascota. Elegí los atributos `nombre`, `edad`, `h
 - Métodos: `alimentar()`, `jugar()`, `estado()`
 - Control de limites con  `max()` y `min()` para que no pasen de 0-100
 
-**Salida del programa:**
+**Salida del programa**
+
+Etapa 5 completa lista para su revisión https://github.com/romyvalenzuela/Recursos/tree/main/Python
