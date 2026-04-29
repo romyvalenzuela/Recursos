@@ -7,8 +7,8 @@ Este método verifica si el personaje sigue con vida comparando su atributo `vid
 ```mermaid
 flowchart TD
 A[Inicio] --> B{¿vida > 0?}
-B -->|Sí| c[Retornar True]
-B -->|No| D[Retornar False]
+B -->|Sí|  [Retornar True]
+B -->|No|  [Retornar False]
 C --> E[Fin]
 D --> E
 
