@@ -5,4 +5,4 @@
 - [MarkDown](MarkDown/README.md)
 - [VsCode](VsCode/README.md)
 - [CLASE ESTRUCTURA](CLASE_ESTRUCTURA.md)
-- [Java](Java.md)
+- [Java](Java/README.md)
