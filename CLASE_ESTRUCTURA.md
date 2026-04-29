@@ -12,3 +12,4 @@ classDiagram
          +atacar(enemigo: Personaje): void
          +defender(): void
          +esta_vivo():boolean
+     }
