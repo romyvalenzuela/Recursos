@@ -1,4 +1,4 @@
-class Macota:
+class Mascota:
   def __int__(self, nombre, edad):
       self.nombre = nombre
       self.edad = edad
