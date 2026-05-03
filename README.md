@@ -7,4 +7,5 @@
 - [CLASE ESTRUCTURA](CLASE_ESTRUCTURA.md)
 - [Java](Java/README.md)
 - [mascota](mascota.md)
-- [Diagrams](./Diagram)
+- [Flujo Lógico](./Diagrams/FLUJO_LOGICO.md)
+- Prompt Flowchart](./Diagrams/prompt_flowchart.md)
