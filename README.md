@@ -8,4 +8,4 @@
 - [Java](Java/README.md)
 - [mascota](mascota.md)
 - [Flujo Lógico](./Diagrams/FLUJO_LOGICO.md)
-- Prompt Flowchart](./Diagrams/prompt_flowchart.md)
+- [Prompt Flowchart](./Diagrams/prompt_flowchart.md)
