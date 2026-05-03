@@ -7,4 +7,26 @@ public class Mascota {
 
   public Mascota(String nombre, int edad) {
     this.nombre = nombre;
-    this
+    this.edad = edad;
+
+  }
+
+  // Este es el método que pide la actividad
+  public boolean estaVivo() {
+      if (this.vida > 0) {
+         return true;
+      } else {
+          return false;
+      }
+
+  } 
+
+  public int getFelicidad() {
+    return this.felicidad;
+
+  }
+
+  public void setFelicidad(int valor) {
+    this.felicidad = Math.max(0, Math.min(100, valor));
+
+    
