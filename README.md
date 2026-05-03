@@ -1,6 +1,6 @@
 # Recursos 
 ## Repositorio de apuntes de ejercicios de programacion.
-- [Fundamentos de programacion](fundamentosprogramacion/README.md)
+- [Fundamentos de Programacion](FundamentosProgramacion/README.md)
 - [Python](Python/README.md)
 - [MarkDown](MarkDown/README.md)
 - [VsCode](VsCode/README.md)
