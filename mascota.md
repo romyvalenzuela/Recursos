@@ -6,6 +6,6 @@ flowchart TD
     A[Inicio esta_vivo] --> B{¿vida > 0?}
     B -->|Si|C[Retornar True]
     B -->|No|D[Retornar False]
-    C --> E [Fin]
+    C --> E[Fin]
     D --> E
 ```
