@@ -1,8 +1,8 @@
 # Sintaxis Básica de Java
-
+````
 
 ## 1. Texto - String
-```java
+
 
 String saludo = "Hola Profe";
 System.out.printin(saludo);
