@@ -18,7 +18,18 @@ import java.util.ArrayList;
 
 ArrayList<String> nombre = new ArrayList<>();
 nombres.add("Romy");
-nombre.add("java");
+nombres.add("java");
 Systen.out.printin(nombres.get(0));
+
+public class Personaje {
+    private String nombre;
+
+    public Personaje(Strign nombre) {
+        this.nombre = nombre;
+   }
+}
+
+```
+
 
 
