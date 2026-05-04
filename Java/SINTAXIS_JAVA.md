@@ -3,4 +3,15 @@
 ## 1. Texto - String
 ```java
 String saludo = "Hola Profe";
-Sistem.out.printIn(saludo);
+System.out.printIn(saludo);
+
+int edad = 20;
+int vida = 100;
+System.out.printIn(edad + vida);
+
+boolean estaVivo = true;
+if (estaVivo) {
+   Systema.out.promtIn("Sgue peleando");
+}
+
+import java.util.Arra
