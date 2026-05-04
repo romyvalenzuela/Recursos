@@ -1,5 +1,6 @@
 # Sintaxis Básica de Java
 
+
 ## 1. Texto - String
 ```java
 
