@@ -2,6 +2,7 @@
 
 ## 1. Texto - String
 ```java
+
 String saludo = "Hola Profe";
 System.out.printin(saludo);
 
