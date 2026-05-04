@@ -3,7 +3,6 @@
 
 ## 1. Texto - String
 
-
 String saludo = "Hola Profe";
 System.out.printin(saludo);
 
