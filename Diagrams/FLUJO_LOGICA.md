@@ -1,8 +1,4 @@
-# Promt
-
 ## Método: esta_vivo
-
-Este método verifica si el personaje sigue con vida comparando su atributo vida con 0
 
 ```mermaid
 
