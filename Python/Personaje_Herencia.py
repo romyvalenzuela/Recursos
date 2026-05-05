@@ -9,16 +9,16 @@ class Personaje:
     print(f"{self.nombre} atacó a {otro.nombre}. Vida de {otro.nombre}: {otro.vida}")
 
  def esta_vivo(self):
-  return sel.vida > 0
+  return self.vida > 0
 
 class Guerrero(Personaje):
   def __init__(self, nombre, vida, ataque, armadura):
-    super().__init__(nombre, vida, ataque):
+    super().__init__(nombre, vida, ataque)
     self.armadura = armadura
   
   def defender(self):
-    self.vida += self. armadura
-    print((f"{self.nombr} se defendio con {self.armadura} de armadura. Vida: {self.vida}")
+    self.vida += self.armadura
+    print(f"{self.nombr} se defendio con {self.armadura} de armadura. Vida: {self.vida}")
 
 # Personaje diferente inventado
 arquero = Guerrero("Robin Hood", 90, 20, 8)
@@ -33,7 +33,7 @@ if arquero.esta_vivo():
   print(f"{arquero.nombre} ganó")
 
 else:
-  print(maravilla.nombre} ganó") 
+  print(f"{maravilla.nombre} ganó") 
 
 
     
