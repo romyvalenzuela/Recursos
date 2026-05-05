@@ -1,7 +1,5 @@
 # Diagrama UML - Clase Personaje
 
-## Diagrama de Clases en Mermaid
-
 ```mermaid
 classDiagram
     class Personaje {
