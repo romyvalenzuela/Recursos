@@ -1,16 +1,4 @@
-# Diagrama de Flujo: Método esta_vivo()
+# Diagrama de Flujo del Método esta_vivo
 
-```mermaid
-
-flowchart TD
-A[Inicio] --> B{¿vida > 0?}
-B -->|SI|C[Retornar_True]
-B -->|NO|D[Retornar_False]
-C --> E[Fin]
-D --> E
-```
-
-## Prompt Utilizado
-[Ver prompt](./prompt_flowchart.md)
-
+[Diagrama esta_vivo](./Diagram/valenzuela_romy_flowchart_fundamentos.png)
 
