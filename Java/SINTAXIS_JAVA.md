@@ -35,5 +35,9 @@ System.out.println(inventario.get("Pocion"));
 ```
 // HashMap guarda pares clave-valor como un diccionario.
 
+## E4.07 - Módulo y Clases
+
+Los módulos en Java organizan el código en paquetes para reutilizarlo y mantener orden.
+El comando `javac`compila archivos .java a .class para wue la máquina virtual los ejecute.
 
 
