@@ -1,44 +1,39 @@
-# Sintaxis Básica de Java
-````
+# SINTAXIS_JAVA.md - Romy Valenzuela
 
-## 1. Texto - String
+## E4.05 - Tipos de datos básicos
 
-String saludo = "Hola Profe";
-System.out.printLn(saludo);
-
-## 2. Números-int
-
-int edad = 20;
-int vida = 100;
-System.out.println(edad + vida);
-
-## 3. Booleanos-boolean
-
-boolean estaVivo = true;
-if (estaVivo) {
-   Systen.out.promtln("Sgue peleando");
-}
-
-## 4. Listas-ArrayList
-
-import java.util.ArrayList;
-
-ArrayList<String> nombre = new ArrayList<>();
-nombres.add("Romy");
-nombres.add("java");
-Systen.out.println(nombres.get(0));
-
-## 5. Objetos-class
-
-public class Personaje {
-    private String nombre;
-
-    public Personaje(Strign nombre) {
-        this.nombre = nombre;
-   }
-}
-
+### 1. Texto - String
+```java
+String nombre = "Romy";
+String apellido = "Valenzuela";
+System.out.println("Hola" + nombre + " " + apellido);
 ```
+// Los String guardan texto con comillas dobles.
+
+### 2. Números - int
+```
+int edad = 25;
+System.out.println("Edad: " + edad);
+```
+// int guarda números enteros.
+
+### 3. Booleanos - boolean
+```java
+boolean estaVivo = true;
+ System.out.println(estaVivo);
+```
+// boolean solo es true o false
+
+## E4.06 - Estructuras de datos
+
+### 4. HashMap - Diccionario clave-valor
+``java`
+import java.util.HasMap;
+HashMap<String, Integer> inventario = new HashMap<>();
+inventario.put("Pocion" , 5);
+System.out.println(inventario.get("Pocion"));
+```
+// HashMap guarda pares clave-valor como un diccionario.
 
 
 
