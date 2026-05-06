@@ -59,8 +59,11 @@ class Guerrero extends Personaje {
 
   public void defender() {
     System.out.printLn(getNombre() + " se defiende y gana " + this.armadura + " vida ");
-    
 
+  }
+}
+
+}
   
   
     
