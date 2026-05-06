@@ -17,5 +17,6 @@ class Guerrero {
     +Guerrero(nombre: String, vida: int, ataque: int, armadura: int)
     +defender(): void
 }
+
 Personaje <|-- Guerrero : Herencia
 
