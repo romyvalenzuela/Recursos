@@ -2,7 +2,7 @@
 
 ## Diagrama UML en Mermaid
 ```mermaid
-ClassDiagram
+classDiagram
     class Personaje {
         -String nombre
         -int vida
@@ -21,4 +21,6 @@ class Guerrero {
 Personaje <|-- Guerrero : Herencia
 
 ```
+
+
 
