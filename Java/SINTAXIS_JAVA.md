@@ -11,7 +11,7 @@ System.out.println("Hola" + nombre + " " + apellido);
 // Los String guardan texto con comillas dobles.
 
 ### 2. Números - int
-```
+```java
 int edad = 25;
 System.out.println("Edad: " + edad);
 ```
@@ -27,8 +27,8 @@ boolean estaVivo = true;
 ## E4.06 - Estructuras de datos
 
 ### 4. HashMap - Diccionario clave-valor
-``java`
-import java.util.HasMap;
+```java
+import java.util.HashMap;
 HashMap<String, Integer> inventario = new HashMap<>();
 inventario.put("Pocion" , 5);
 System.out.println(inventario.get("Pocion"));
