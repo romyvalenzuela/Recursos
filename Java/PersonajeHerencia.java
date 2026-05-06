@@ -10,7 +10,7 @@ public class PersonajeHerencia {
     arquero.atacar(maravilla);
     maravilla.atacar(arquero);
 
-    if (arquero.esta_Vivo()) {
+    if (arquero.estaVivo()) {
         System.out.println(arquero.getNombre() + "ganó");
     } else {
         System.out.println(maravilla.getNombre() + "ganó");
@@ -44,7 +44,7 @@ class Personaje {
   }
 
   public String getNombre() { return nombre; }
-  public int getVida() { retutn vida; }
+  public int getVida() { return vida; }
   }
 
 //Clase hija - Herencia 
@@ -52,6 +52,8 @@ class Guerrero extends Personaje {
   private int defensa;
 
   public Guerrero(String nombre, int vida, int ataque, int defensa) {
+    super(nombre, vide, ataque); //Obligatorio: inializa la clasepadre
+    this.defensa = defensa;
   }
 
   public void defender() {
@@ -62,7 +64,7 @@ class Guerrero extends Personaje {
     int danio = this.ataque; //Podria restar defensa del otro si quiere
     otroPersonaje.vida = otroPersonaje.vida - danio;
     System.out.println(this.nombre + " ataca en furia a " + otroPersonaje.nombre);
-    System.out.println(" Vida de " + otroPersonaje + ":" + otroPersonaje.getvida());
+    System.out.println(" Vida de " + otroPersonaje.getNombre() + ":" + otroPersonaje.getvida());
   }
 }
 
