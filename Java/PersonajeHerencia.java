@@ -5,15 +5,15 @@ public class PersonajeHerencia {
     Guerrero arquero = new Guerrero("Robin Hood", 90, 20, 8);
     Personaje maravilla = new Personaje("Maravilla mala", 100, 15);
 
-    System.out.printLn(" === inicio combate ===");
+    System.out.println(" === inicio combate ===");
     arquero.defender();
     arquero.atacar(maravilla);
     maravilla.atacar(arquero);
 
     if (arquero.esta_vivo()) {
-        System.out.printLn(arquero.getNombre() + "gaó");
+        System.out.println(arquero.getNombre() + "gaó");
     } else {
-        System.out.printLn(maravilla.getNombre() + "gaó");
+        System.out.println(maravilla.getNombre() + "gaó");
     }
 
   }
@@ -34,7 +34,7 @@ class Personaje {
 
   public void atacar(Personaje otro) {
     System.out.printLn(this.nombre + "ataca a " + otro.nombre);
-    otra.vida -= this.ataque;
+    otro.vida -= this.ataque;
     System.out.printLn(otro.nombre + "queda con" + otro.vida + "de vida");
 }
 
@@ -52,13 +52,13 @@ class Personaje {
 class Guerrero extends Personaje {
   private int armadura;
 
-  public Guerrero(String nombrre, int vida, int ataque, int armadura) {
-    super(nombre, vida, ataque); //Llama al constructor del padre
+  public Guerrero(String nombre, int vida, int ataque, int armadura) {
+    super(nombre, vida, ataque); 
     this.armadura = armadura;
   }
 
   public void defender() {
-    System.out.printLn(getNombre() + "se defiende y gana" + this.armadura + "vida");
+    System.out.printLn(getNombre() + " se defiende y gana " + this.armadura + " vida ");
     
 
   
