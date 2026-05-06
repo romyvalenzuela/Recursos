@@ -52,7 +52,7 @@ class Guerrero extends Personaje {
   private int defensa;
 
   public Guerrero(String nombre, int vida, int ataque, int defensa) {
-    super(nombre, vide, ataque); //Obligatorio: inializa la clasepadre
+    super(nombre, vida, ataque); //Obligatorio: inializa la clasepadre
     this.defensa = defensa;
   }
 
