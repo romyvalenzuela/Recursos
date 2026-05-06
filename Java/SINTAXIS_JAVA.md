@@ -10,13 +10,13 @@ System.out.printLn(saludo);
 
 int edad = 20;
 int vida = 100;
-System.out.printLn(edad + vida);
+System.out.println(edad + vida);
 
 ## 3. Booleanos-boolean
 
 boolean estaVivo = true;
 if (estaVivo) {
-   Systen.out.promtLn("Sgue peleando");
+   Systen.out.promtln("Sgue peleando");
 }
 
 ## 4. Listas-ArrayList
@@ -26,7 +26,7 @@ import java.util.ArrayList;
 ArrayList<String> nombre = new ArrayList<>();
 nombres.add("Romy");
 nombres.add("java");
-Systen.out.printLn(nombres.get(0));
+Systen.out.println(nombres.get(0));
 
 ## 5. Objetos-class
 
