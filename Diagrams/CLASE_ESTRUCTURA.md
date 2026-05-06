@@ -20,3 +20,5 @@ class Guerrero {
 
 Personaje <|-- Guerrero : Herencia
 
+```
+
