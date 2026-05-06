@@ -11,9 +11,9 @@ public class PersonajeHerencia {
     maravilla.atacar(arquero);
 
     if (arquero.esta_vivo()) {
-        System.out.println(arquero.getNombre() + "gaó");
+        System.out.println(arquero.getNombre() + "ganó");
     } else {
-        System.out.println(maravilla.getNombre() + "gaó");
+        System.out.println(maravilla.getNombre() + "ganó");
     }
 
   }
