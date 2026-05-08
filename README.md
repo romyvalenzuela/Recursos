@@ -7,4 +7,4 @@
 - [Java](Java/README.md)
 - [mascota](mascota.md)
 - [Diagrams](./Diagrams)
-- [Mermaid](./Mermaid)
+- [Mermaid](./Mermaid.md)
