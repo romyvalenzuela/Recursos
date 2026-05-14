@@ -4,6 +4,6 @@
 
 - [Datos tabla Macota](./ApuntesBaseDeDatosMascota.jpg)
 
-- [Apuntes Modelo Entidad Relación](./ApuntesModeloEntidadRelacion.jpg)
+- [Apuntes Modelo Entidad Relación](./ApuntesModeloEntidadRelación.jpg)
 
 - [LogicDesing.md](./LogicDesing.md)
