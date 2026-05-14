@@ -1,0 +1,8 @@
+# Ejemplos de Cardianalidad
+
+## Notación clásica
+
+![Ejemplo de cardinalidad](/DataBase/Cardinalidad/cardinalidad-completa.jpg)
+
+1. **1:1 Una a Uno** - Persona - Rut
+2. **1:N Uno a Muchos** - Cliente - Pedido
