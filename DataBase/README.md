@@ -2,6 +2,8 @@
 
 ## Actividad 1 - Modelado Lógico
 
-[Datos tabla Macota](./ApuntesBaseDeDatosMascota.jpg)
-[Apuntes Modelo Entidad Relación](./ApuntesModeloEntidadRelación.jpg)
-[LogicDesing.md](./LogicDesing.md)
+- [Datos tabla Macota](./ApuntesBaseDeDatosMascota.jpg)
+
+- [Apuntes Modelo Entidad Relación](./ApuntesModeloEntidadRelación.jpg)
+
+- [LogicDesing.md](./LogicDesing.md)
