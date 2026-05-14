@@ -1,4 +1,4 @@
-# Ejemplos de Cardianalidad
+# Ejemplos de *Cardinalidad*
 
 ## Notación clásica
 
@@ -6,3 +6,8 @@
 
 1. **1:1 Una a Uno** - Persona - Rut
 2. **1:N Uno a Muchos** - Cliente - Pedido
+3. **N:M Muchos a Muchos** - Estudiante - Curso
+4. **0..1 Cero a Uno** - Empleado Auto Empresa
+5. **0..N Cero a Muchos** - Profesor - Alumno
+6. **1..1 Uno a Uno Obligatorio** - Usuario - Cuentas
+7. **1..N Uno a Muchos Obligatorio** - Departamento - Empleado
