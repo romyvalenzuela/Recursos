@@ -2,7 +2,7 @@
 
 ## Notación clásica
 
-![Ejemplo de cardinalidad](./Cardinalidad-completa.jpeg)
+![Ejemplo de cardinalidad](./Cardinalidad-completa.jpg)
 
 1. **1:1 Una a Uno** - Persona - Rut
 2. **1:N Uno a Muchos** - Cliente - Pedido
