@@ -28,7 +28,6 @@ Esta notación especifica el rango de participación obligatoria o mínima:
   - Ejemplo: Profesor y asignatura, madre e hijo.
 
 ## Ejercicios de cardinalidad
-Aquí están las 7 cardinalidades copiadas de clases:
-![Ejercicios de cardinalidad](./../db_cardinalidad_completa.jpg)
+![Ejercicios de cardinalidad](./db_cardinalidad_completa.jpg)
 
 
