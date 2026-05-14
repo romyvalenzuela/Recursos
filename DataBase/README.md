@@ -5,4 +5,4 @@
 - [Datos tabla Mascota](./ApuntesBaseDeDatosMascota.jpg)
 - [Apuntes Modelo Entidad Relación](./ApuntesModeloEntidadRelación.jpg)
 - [LogicDesingn.md](./LogicDesingn.md)
-- [Ejemplo de Cardinalidad](./Cardinalidad/Cardinalidad-completa.jpg)
+- [Ejemplo de Cardinalidad](./Cardinalidad.md)
