@@ -9,7 +9,7 @@
   - Ejemplos: Clientes y pedidos, libro y capítulos, cuenta bancaria y movimientos, paciente y citas médicas.
 
 - **Muchos a Muchos (N:M)**: Varios elementos de una entidad se relacionan con varios de otra.
- - Ejemplo: Persona e idioma, actor y película, alumno y asignatura, pedido y transportista.
+  - Ejemplo: Persona e idioma, actor y película, alumno y asignatura, pedido y transportista.
 
 ## 2. Notación de Minimos y Maximos (0..1, 0..N, 1..1, 1..N)
 
