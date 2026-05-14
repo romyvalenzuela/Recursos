@@ -5,7 +5,7 @@
 ![Tabla Mascota](./ApuntesBaseDeDatosMascota.jpg)
 ![Modelo Entidad Relación](./ApuntesModeloEntidadRelación.jpg)
 
-** 1. ¿Que es una base de datos?**
+** 1. ¿Qué es una base de datos?**
 
 Una base de datos es un lugar organizado donde guardo información para poder buscarla, modificarla y guardarla sin perderla.
 Es como una tabla donde pongo datos de cosas.
@@ -19,7 +19,7 @@ En mejor usar FLOAT porque permite guardar decimales. En el ejemplo de clases us
 
 No es recomendable guardarla directamente porque la edad cambia cada año y el dato queda desactualizado. La mejor opción es guardar la fecha de nacimiento con tipo Date y calcular la edad cuando se necesita.
 
-** 4. "Data vs "Realidad": Si guardampo 0.5 en FLOAT y no la fecha de nacimiento , ¿Qué problema técnico tendríamos?**
+** 4. "Data vs "Realidad": Si guardamos 0.5 en FLOAT y no la fecha de nacimiento , ¿Qué problema técnico tendríamos?**
 
 Si solo guardamos 0.5, perdemos la fecha exasta de nacimiento. El sistema no sabría en qué día y mes cumple el cachorro, solo sabe que tiene medio año. Entonces no podría enviar el saludo automático el día correcto cada año, porque no tiene la fecha real para calcular cuándo es el cumpleaño. Con DATE sí se puede calcular la edad y el día exacto del cumpleaños automáticamente.
 
