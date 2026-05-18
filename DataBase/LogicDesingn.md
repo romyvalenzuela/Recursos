@@ -43,3 +43,25 @@ Diferencia de notacion
 La notacion clasica usa 1:1,1:N,N:M
 La notacion de minimos y maximos usa 0..1,1..N
 para decir si la relacion es obligatoria o no.
+
+## Actividad 1 - Modelado Lógico
+
+### 1. Dectección De Error
+
+La tabla intermedia MASCITA_TUTOR se usa únicamente para relaciones Mucho a Mucho (N-M).
+En la clase se dibujó una relación N-1, donde una mascota tiene 1 tutor y un tutor tiene muchas mascotas.
+Para una relación N-1 nose necesita tabla intermedia, basta con colocar la llave foránea id_tutor dentro de la tabla MASCOTA. per eso existe una contradicción entre lo dibujado y lo implementado.
+
+### 2. Contexto de Negocio
+
+** Caso A: Clinica Veterinaria Hogar**
+Cardinalidad 1-N.
+Una mascota tiene 1 tutor. Un tutor tiene muchas mascotas.
+No requiere tabla intermedia. La llave foránea id_tutor va en la tabla MASCOTA.
+
+** Caso B: Hotel de Mascota premium**
+Cardinalidad N-M
+Una mascota puede tener varios tutores. Un tutor puede tener varias mascotas.
+Requiere tabla intermedia MASCOTA_TUTOR con id_mascota e id_tutor como llave foráneas.
+
+
