@@ -29,3 +29,13 @@ Para matrículas vehiculares que siempre tienen 7 caracteres usarías **CHAR(7)*
 - Como todas las matriculas tienen exactamente 7 caracteres, no desperdicias espacio rellenando.
 - Es mas rápido para buscar e indexar que VARCHAR porque todos los registros tienen el mismo tamañano.
 Usar VARCHAR(7) también funcionaría, pero CHAR(7) es más eficiente en este caso específico.
+
+## 5. Gestión de almacenamiento: Riesgo de VARCHAR muy grande
+El riesgo de definir un VARCHAR con longitud execivamente grande, ej: `VARCHAR(1000)`, cuando los datos reales son pequeños, es:
+
+1. ** Falsa sensación de seguridad **: Parece que no hay problema de espacio, pero el programador puede pensar que "no importa" y no validar el largo de entrada.
+2. ** Uso ineficiente de memoria en operaciones temporales**: Al hacer consultas, ordenamiento y joins, MySQL/SQL Server a veces reserva memoria según el largo máximo definido, no el largo real. Si pones VARCHAR (1000) para un nombre que tiene 10 caracteres, puedes estar gastando memoriade más.
+3. ** Menor control de datos **: No estas aprovechando la validación implícita que da definir un limite realista.
+
+ConclusiónPon el lago máximo realista que vas a usar. Para un Nombre, VARCHAR(50) o VARCHAR(1000) es suficiente. 
+
