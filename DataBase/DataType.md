@@ -20,3 +20,12 @@ como descripciones, comentarios, artículos o el contenido de un mensaje.
 - CHAR y VARCHAR tienen un limite maximo definido po ti, ej: VARCHAR(255).
 - TEXT puede guardar miles de caracteres sin que tengas que definir el límite exacto.
 La desventaja es que es más lento para buscar e indexar a CHAR y VARCHAR.
+
+## 4. Análisis de caso prctico: Matrículas vehiculares
+Para matrículas vehiculares que siempre tienen 7 caracteres usarías **CHAR(7)**.
+
+**Por qué:**
+- CHAR es de longitud fija, entonces siempre ocupa  7 caracteres.
+- Como todas las matriculas tienen exactamente 7 caracteres, no desperdicias espacio rellenando.
+- Es mas rápido para buscar e indexar que VARCHAR porque todos los registros tienen el mismo tamañano.
+Usar VARCHAR(7) también funcionaría, pero CHAR(7) es más eficiente en este caso específico.
