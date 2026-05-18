@@ -16,7 +16,7 @@ Por eso es más eficiente para textos de largo variable como nombre, apellido o 
 TEXT Está diseñado para almacenar **textos largos sin límites fijos de caracteres **,
 como descripciones, comentarios, artículos o el contenido de un mensaje.
 
-##Ventajas respectoa CHAR y VARCHAR:**
+## Ventajas respectoa CHAR y VARCHAR:**
 - CHAR y VARCHAR tienen un limite maximo definido po ti, ej: VARCHAR(255).
 - TEXT puede guardar miles de caracteres sin que tengas que definir el límite exacto.
 La desventaja es que es más lento para buscar e indexar a CHAR y VARCHAR.
