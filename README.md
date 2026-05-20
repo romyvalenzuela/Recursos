@@ -7,5 +7,5 @@
 - [Java](Java/README.md)
 - [mascota](mascota.md)
 - [Diagrams](Diagrams)
-- [Mermaid](Mermaid.md)
-- [DataBase](DataBase.md)
+- [Mermaid](Mermaid/README.md)
+- [DataBase](DataBase/README.md)
