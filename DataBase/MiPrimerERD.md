@@ -5,6 +5,6 @@
 
 ## Foto del ejercicio como boceto.
 
-https://github.com/romyvalenzuela/Recursos/blob/main/DataBase/1000331518.jpg?raw=true
+
 
 
