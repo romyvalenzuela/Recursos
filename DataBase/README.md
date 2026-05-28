@@ -10,5 +10,5 @@
 ## Tipos de Datos
 Ver explicación de CHAR, VARCHAR y TEXT en [DataType.md](./DataType.md)
 
-## ACTIVIDAD GIMNACIO
+## ACTIVIDAD GIMNASIO
 - [MyFirsterd](./MyFirsterd.md)
