@@ -10,6 +10,6 @@
 ## Tipos de Datos
 Ver explicación de CHAR, VARCHAR y TEXT en [DataType.md](./DataType.md)
 
-ACTIVIDAD GIMNASIO
+## ACTIVIDAD GIMNASIO
 
--[MiPrimerERD](./MiPrimerERD.md)
+- [MiPrimerERD](./MiPrimerERD.md)
