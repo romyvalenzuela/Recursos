@@ -7,5 +7,11 @@
 
 ![romy](./1000331518.jpg)
 
+Trabajo Final 
+
+- Para tener en cuenta: Las notaciones de relacion en cada union estan puestas donde corresponde pero como el trabajo no alcanzo todo en una hoja tuvimos que hacer la continuacion en otro solo la de entrenadores 1-N Clases(para teenr en cuenta).
+
+- HOJA NÚMERO 1
+
 
 
