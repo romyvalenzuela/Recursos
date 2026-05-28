@@ -17,7 +17,7 @@
 
 - HOJA NÚMERO 2
 
-![romy]
+![romy](./1000331521.jpg)
 
 
 
