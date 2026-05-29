@@ -9,7 +9,7 @@
 
 ## TRABAJO FINAL
 
-- Para tener en cuenta: Las notaciones de relacion en cada union estan puestas donde corresponde pero como el trabajo no alcanzo todo en una hoja tuvimos que hacer la continuacion en otro solo la de entrenadores 1-N Clases(para teenr en cuenta).
+- Para tener en cuenta: Las notaciones de relacion en cada union estan puestas donde corresponde pero como el trabajo no alcanzo todo en una hoja tuvimos que hacer la continuacion en otra solo la de entrenadores 1-N Clases(para tener en cuenta).
 
 - HOJA NÚMERO 1
 
