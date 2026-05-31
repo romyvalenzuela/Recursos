@@ -6,3 +6,6 @@
 
 ## Foto del ejercicio como boceto.
 
+![romy](.IMG-20260529-WA0097.jpg)
+
+## Trabajo Final
