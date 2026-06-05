@@ -5,4 +5,4 @@
 
 ### Paso 1 : Descarga del zip
 Descargado en `postgresql-9.5.25_1-windows_binaries.zip` versión Win x86-32
-![Captura 1](./captura1_descarga.zip.png)
+![Captura1_descarga.zip](./captura1_descarga.zip.png)
