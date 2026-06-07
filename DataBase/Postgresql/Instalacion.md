@@ -1,6 +1,6 @@
 # PostgreSQL 9.5 Portable - Windows
 
-## Actividad 3 : InstalaciÓn Manual
+## Actividad 3 : Instalación Manual
 
 ** Curso:** PRO102-16096-226031- PRE-BASES DE DATOS RELACIONALES
 
