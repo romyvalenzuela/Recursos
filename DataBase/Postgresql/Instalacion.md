@@ -6,7 +6,7 @@
 
 ** Alumno:** Romy Valenzuela
 
-** Fecha: 7 Junio 2026
+** Fecha: 8 Junio 2026
 
 ### Etapa 1 : Instalación PostgreSQL 9.5 Portable
 ** Checklist de avance:**
@@ -19,10 +19,29 @@
 Documentar instalacón portable para trabajar desde clases y casa sin instalar PostgreSQL en el PC.
 
 ### E1. 4 Evidencias
-** Comando usado:**./initdb -D C:/Postgres95/data -U postgres -A trust
-** Nota:** Usé -A trust para que psql no pidiera contraseña
+
+### Paso 1: Inicializar cluster - initdb
+
+** Comando usado:** `./bin/initdb.exe -D DATA_ROMY -U postgres -W -E UTF8`
+** Nota autoría:** Con este comando creé la carpeta DATA_ROMY donde postgres guardo toda las bases de datos. El parámetro -W me pidió crear una contraseña para el usuario postgres, esa clave es obligatoria para conectarse después. 
 ![Desacarga ZIP](captura1_descarga.zip.png)
+
+### Paso 2: Iniciar servicio - pg_ctl
+
+** Comando usado:** `./bin/pg_ctl.exe -D DATA_ROMY -l logfile.log start`
+** Nota autoía:** Este comando levanta el motor de PostgresSQL. El -l crea un archivo logfile.log para revisar errores. Cuando aparece `server started successfully` significa que ya está corriendo y me puedo conectar.
 ![Carpeta data](captura2_carpeta.jpg.png)
+
+### Paso 3: Conectar con psql 
+
+** Comando usado:** `./bin/psql.exe -U postgres`
+** Nota autoría:** Meconecte usando el usuario postgres y la contraseña que definí en el initdb.El prompt postgres =# confirma que estoy dentro de la BD. Uso /q para salir sin dañar nada.
+![Conexión psql exitosa](evidencia_postgres_romy.png)
+
+### Extras: Errores que tuve y cómo lo solucioné
+** Poblema:** 
+
+
 ![Error que tuve](captura3_error.png)
 ![pgAdmin3](Captura4_pgAdmin3.jpg.png)
-![Conexión psql exitosa](evidencia_postgres_romy.png)
+
