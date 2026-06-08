@@ -11,9 +11,9 @@
 ### Etapa 1 : Instalación PostgreSQL 9.5 Portable
 ** Checklist de avance:**
 - [x] E1. 1 Crear carpeta y README.md en GitHub.
-- [x]  E1. 2 Descargar PostgreSQL 9.5.25 portable x86-32
-- [x]  E1. 3 Descomprimir en directorio o pendrive
-- [x]  E1. 4 Configuracion e instalación
+- [x] E1. 2 Descargar PostgreSQL 9.5.25 portable x86-32
+- [x] E1. 3 Descomprimir en directorio o pendrive
+- [x] E1. 4 Configuracion e instalación
 
 ### Objetivo
 Documentar instalacón portable para trabajar desde clases y casa sin instalar PostgreSQL en el PC.
