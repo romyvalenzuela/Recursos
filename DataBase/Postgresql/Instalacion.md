@@ -39,9 +39,10 @@ Documentar instalacón portable para trabajar desde clases y casa sin instalar P
 ![Conexión psql exitosa](evidencia_postgres_romy.png)
 
 ### Extras: Errores que tuve y cómo lo solucioné
-** Poblema:** 
+** Poblema:** Al hacer doble click en `postgres.exe` Windows mostró `Windows protegió mi PC`con SmartScreen y bloqueó la ejecución.
+** Nota Autoría:** Me salió este error porque Windows
 
 
 ![Error que tuve](captura3_error.png)
-![pgAdmin3](Captura4_pgAdmin3.jpg.png)
+
 
