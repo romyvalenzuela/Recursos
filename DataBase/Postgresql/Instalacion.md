@@ -24,7 +24,7 @@ Documentar instalacón portable para trabajar desde clases y casa sin instalar P
 
 ** Comando usado:** `./bin/initdb.exe -D DATA_ROMY -U postgres -W -E UTF8`
 ** Nota autoría:** Con este comando creé la carpeta DATA_ROMY donde postgres guardo toda las bases de datos. El parámetro -W me pidió crear una contraseña para el usuario postgres, esa clave es obligatoria para conectarse después. 
-![Desacarga ZIP](pg_pasos/captura1_descarga.zip.png)
+![Desacarga ZIP](captura1_descarga.zip.png)
 
 ### Paso 2: Iniciar servicio - pg_ctl
 
