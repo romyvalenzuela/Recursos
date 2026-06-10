@@ -39,10 +39,10 @@ Documentar instalacón portable para trabajar desde clases y casa sin instalar P
 ![Conexión psql exitosa](evidencia_postgres_romy.png)
 
 ### Extras: Errores que tuve y cómo lo solucioné
+
 ** Poblema:** Al hacer doble click en `postgres.exe` Windows mostró `Windows protegió mi PC`con SmartScreen y bloqueó la ejecución.
-** Nota Autoría:** Me salió este error porque Windows
-
-
+** Nota Autoría:** Me salió este error porque Windows SmartScreen de Microsoft Defender bloquea aplicacionas desconocidas que no tienen firma digital. PostgreSQL partable no esta firmado, por eso lo detecta como riesgo.
+**Solución:** Hice click en `Más información` y luego en `Ejecutar de todas formas`. No es peligroso porque la app viene de la web oficial de PostgreSQL.
 ![Error que tuve](captura3_error.png)
 
 
