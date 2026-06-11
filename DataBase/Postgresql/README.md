@@ -6,6 +6,6 @@
 
 ## Checklist E1 según rúbrica
 - [x] E1.1 Carpeta Postgresql creado con README.md
-- [] E1.2 PostgresSQL 9.5.25 descargado descomprimido
-- [] E1.3 InstalacionWindows.md con evidencias en pg_pasos
-- [] E1.4 Comando initdb y pg_ctl ejecutados
+- [x] E1.2 PostgresSQL 9.5.25 descargado descomprimido
+- [x] E1.3 InstalacionWindows.md con evidencias en pg_pasos
+- [x] E1.4 Comando initdb y pg_ctl ejecutados
