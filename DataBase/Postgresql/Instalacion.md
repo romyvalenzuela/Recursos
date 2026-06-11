@@ -29,13 +29,13 @@ Documentar instalacón portable para trabajar desde clases y casa sin instalar P
 ### Paso 2: Iniciar servicio - pg_ctl
 
 ** Comando usado:** `./bin/pg_ctl.exe -D DATA_ROMY -l logfile.log start`
-** Nota autoía:** Este comando levanta el motor de PostgresSQL. El -l crea un archivo logfile.log para revisar errores. Cuando aparece `server started successfully` significa que ya está corriendo y me puedo conectar.
+** Nota autoría:** Este comando levanta el motor de PostgresSQL. El -l crea un archivo logfile.log para revisar errores. Cuando aparece `server started successfully` significa que ya está corriendo y me puedo conectar.
 ![Carpeta data](captura2_carpeta.jpg.png)
 
 ### Paso 3: Conectar con psql 
 
-** Comando usado:** `./bin/psql.exe -U postgres`
-** Nota autoría:** Meconecte usando el usuario postgres y la contraseña que definí en el initdb.El prompt postgres =# confirma que estoy dentro de la BD. Uso /q para salir sin dañar nada.
+** Comando usado:**`./bin/psql.exe -U postgres`
+** Nota autoría:**Me conecte usando el usuario postgres y la contraseña que definí en el initdb.El prompt postgres =# confirma que estoy dentro de la BD. Uso /q para salir sin dañar nada.
 ![Conexión psql exitosa](evidencia_postgres_romy.png)
 
 ### Extras: Errores que tuve y cómo lo solucioné
