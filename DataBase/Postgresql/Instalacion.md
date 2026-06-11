@@ -16,7 +16,7 @@
 - [x] E1. 4 Configuracion e instalación
 
 ### Objetivo
-Documentar instalacón portable para trabajar desde clases y casa sin instalar PostgreSQL en el PC.
+Instalacón PostgreSQL 9.5.25 versión portable 
 
 ### E1. 4 Evidencias
 
