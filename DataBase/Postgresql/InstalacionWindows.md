@@ -9,12 +9,12 @@ Descomprimí el archivo .zip en la carpeta pgsql.
 ![paso 2 extraccion](paso2_extraccion.png)
 
 ### E1.4 initdb
-Ejecuté el comando: `initdb.exe -D DATA_ROMYVALENZUELA -U Postgres -W -E UTF8`
+Ejecuté el comando: `C:/pgsql/bin> initdb.exe -D DATA_ROMYVALENZUELA -U Postgres -W -E UTF8`
 Cambié DATA_Romy por DATA_ROMYVALENZUELA
 ![paso 3 initdb](paso3_initdb.png)
 
-### E1.4 Iniciar sevidor
-Comando usado: `pg_ctl.exe -D DATA_ROMYVALENZUELA -l logfile start`
+### E1.4 Iniciar servidor
+Me paré en la carpeta bin y ejecuté : `C:/pgsql/bin> pg_ctl.exe -D DATA_ROMYVALENZUELA -l logfile start`
 ![paso 4 pgctl](paso4_pgctl.png)
 
 ### E1.4 Conexión con psql
