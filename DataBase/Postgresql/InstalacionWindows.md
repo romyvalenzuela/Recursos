@@ -19,6 +19,6 @@ Me paré en la carpeta bin y ejecuté : `C:/pgsql/bin> pg_ctl.exe -D DATA_ROMYVA
 
 ### E1.4 Conexión con psql
 Me conecté con: `psql -U postgres`
-![paso 5 psql]
+![paso 5 psql](pg_pasos/paso5_psql.png)
 
 
