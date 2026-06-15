@@ -2,10 +2,12 @@
 
 ### E1.2 Descarga
 Descargué PostgreSQL 9.5.25 Win x86-32 desde link del curso.
+
 ![paso 1 Descarga](../pg_pasos/descargar%20postgres%20.png)
 
 ### E1.2 Extracción
 Descomprimí el archivo .zip en la carpeta pgsql.
+
 ![paso 2 extraccion]
 
 ### E1.4 initdb
