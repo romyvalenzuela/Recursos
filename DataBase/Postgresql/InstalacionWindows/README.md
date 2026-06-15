@@ -8,7 +8,7 @@ Descargué PostgreSQL 9.5.25 Win x86-32 desde link del curso.
 ### E1.2 Extracción
 Descomprimí el archivo .zip en la carpeta pgsql.
 
-![paso 2 extraccion]
+![paso 2 extraccion](../pg_pasos/paso2_extraccion.png)
 
 ### E1.4 initdb
 Ejecuté el comando: `C:/pgsql/bin> initdb.exe -D DATA_ROMYVALENZUELA -U Postgres -W -E UTF8`
