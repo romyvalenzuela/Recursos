@@ -48,5 +48,5 @@ Al darle ok a la conexión, pgAdmin me mostro una advertencia que la contraseña
 Después de conectarme, se ve en la imagen mi servidor `mi base de datos`
 con la BD `postgres` creada.
 
-![paso_9_servidor_conectado]
+![paso_9_servidor_conectado](../pg_pasos/paso9_servidor_conectado.png)
 
