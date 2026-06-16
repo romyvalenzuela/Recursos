@@ -33,4 +33,10 @@ Ahí agregué el servidor localhost:5432 con usuario postgres y contraseña post
 ![paso_6.1_pgAdmin](../pg_pasos/paso6_pgAdmin3.png)
 ![paso_6.2_pgAdmin_conectado](../pg_pasos/paso6_2.png)
 
+### Paso.7 Conexion Servidor
+Le di click al icono del enchufe `add a connection to a server` y llené los datos.
+Name: mi base de datos, Host: localhost, Port:5432, Username: postgres, Password: postgres.
+
+![paso_7_conexion_servidor](
+
 
