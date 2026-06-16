@@ -10,7 +10,7 @@ Descomprimí el archivo .zip en la carpeta pgsql.
 
 ![paso 2 extraccion](../pg_pasos/paso2_extraccion.png)
 
-### E1.4 initdb
+### E1.3 initdb
 Ejecuté el comando: `C:/pgsql/bin> initdb.exe -D DATA_ROMYVALENZUELA -U Postgres -W -E UTF8`
 Cambié DATA_Romy por DATA_ROMYVALENZUELA
 
@@ -18,9 +18,18 @@ Cambié DATA_Romy por DATA_ROMYVALENZUELA
 
 ### E1.4 Iniciar servidor
 Me paré en la carpeta bin y ejecuté : `C:/pgsql/bin> pg_ctl.exe -D DATA_ROMYVALENZUELA -l logfile start`
+
 ![!paso 4 pgctl](../pg_pasos/paso4_pgctl.png)
 
-### E1.4 Conexión con psql
+### E1.5 Conexión con psql
 Me conecté con: `psql -U postgres`
+
 ![paso 5 psql](../pg_pasos/paso5_psql.png)
+
+### Paso.6 Ejecutar pgAdmin III
+Busuqé el programa pgAdmin3.exe dentro de la carpeta C:/pgsql/bin y lo abrí haciendo doble click.
+Ahí agregué el servidor localhost:5432 con usuario postgres y contraseña postgres.
+
+![paso_6_pgAdmin](
+
 
