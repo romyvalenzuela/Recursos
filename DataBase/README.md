@@ -8,7 +8,7 @@
 - [Ejemplo de Cardinalidad](./Cardinalidad.md)
 
 ## TIPOS DE DATOS
-Ver explicación de CHAR, VARCHAR y TEXT en [DataType.md](./DataType.md)
+- Ver explicación de CHAR, VARCHAR y TEXT en [DataType.md](./DataType.md)
 
 ## ACTIVIDAD GIMNASIO
 
