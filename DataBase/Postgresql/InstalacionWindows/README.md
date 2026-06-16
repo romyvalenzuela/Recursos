@@ -18,7 +18,7 @@ Cambié DATA_Romy por DATA_ROMYVALENZUELA
 
 ### E1.4 Iniciar servidor
 Me paré en la carpeta bin y ejecuté : `C:/pgsql/bin> pg_ctl.exe -D DATA_ROMYVALENZUELA -l logfile start`
-![paso 4 pgctl]
+![!paso 4 pgctl]
 
 ### E1.4 Conexión con psql
 Me conecté con: `psql -U postgres`
