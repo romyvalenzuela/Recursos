@@ -31,6 +31,6 @@ Busuqé el programa pgAdmin3.exe dentro de la carpeta C:/pgsql/bin y lo abrí ha
 Ahí agregué el servidor localhost:5432 con usuario postgres y contraseña postgres.
 
 ![paso_6.1_pgAdmin](../pg_pasos/paso6_pgAdmin3.png)
-![paso_6.2_pgAdmin_conectado](
+![paso_6.2_pgAdmin_conectado](../pg_pasos/paso6_2.png)
 
 
