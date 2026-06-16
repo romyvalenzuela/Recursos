@@ -39,4 +39,9 @@ Name: mi base de datos, Host: localhost, Port:5432, Username: postgres, Password
 
 ![paso_7_conexion_servidor](../pg_pasos/paso7_conexcion.png)
 
+### Advertencia 
+Al darle ok a la conexión, pgAdmin me mostro una advertencia que la contraseña se guardaría. Le di ok para continuar.
+
+![paso_8](
+
 
